@@ -9,20 +9,41 @@
   ],
   "scenarios": [
     {
-      "label": "Stars block",
+      "label": "stars--0",
       "url": "https://johannpdaniel.github.io/layout_stars/src/",
-      "selectors": [".stars-panel"],
-      "misMatchThreshold": 0.1
+      "selectors": [".stars--0"]
+    },
+    {
+      "label": "stars--1",
+      "url": "https://johannpdaniel.github.io/layout_stars/src/",
+      "selectors": [".stars--1"]
+    },
+    {
+      "label": "stars--2",
+      "url": "https://johannpdaniel.github.io/layout_stars/src/",
+      "selectors": [".stars--2"]
+    },
+    {
+      "label": "stars--3",
+      "url": "https://johannpdaniel.github.io/layout_stars/src/",
+      "selectors": [".stars--3"]
+    },
+    {
+      "label": "stars--4",
+      "url": "https://johannpdaniel.github.io/layout_stars/src/",
+      "selectors": [".stars--4"]
+    },
+    {
+      "label": "stars--5",
+      "url": "https://johannpdaniel.github.io/layout_stars/src/",
+      "selectors": [".stars--5"]
     }
   ],
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
     "bitmaps_test": "backstop_data/bitmaps_test",
-    "engine_scripts": "backstop_data/engine_scripts",
-    "html_report": "backstop_data/html_report",
-    "ci_report": "backstop_data/ci_report"
+    "html_report": "backstop_data/html_report"
   },
   "engine": "puppeteer",
-  "report": ["browser"],
-  "debug": false
+  "report": ["browser"]
 }
