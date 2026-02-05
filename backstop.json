@@ -10,7 +10,7 @@
   "scenarios": [
     {
       "label": "Stars block",
-      "url": "http://127.0.0.1:8080/src",
+      "url": "https://johannpdaniel.github.io/layout_stars/src/",
       "selectors": [".stars-panel"],
       "misMatchThreshold": 0.1
     }
