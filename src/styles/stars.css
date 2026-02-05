@@ -1,7 +1,7 @@
 .stars {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(5, 24px);
-  column-gap: 4px;
+  margin-inline: 4px
 }
 
 .stars__star {
