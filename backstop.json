@@ -1,0 +1,28 @@
+{
+  "id": "stars",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 200,
+      "height": 220
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Stars block",
+      "url": "http://127.0.0.1:8080/src",
+      "selectors": [".stars-panel"],
+      "misMatchThreshold": 0.1
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "engine": "puppeteer",
+  "report": ["browser"],
+  "debug": false
+}
